@@ -41,10 +41,17 @@ do
 			   			# Obtain fresh data after service re-starts
 						# ./is-it-working.sh
 
+<<<<<<< HEAD
 						# OK to go recursive with re-parsing svc log in line below?
 	   					# ./parseResults.sh
 
 	   				# Reload crontab for scheduled jobs once verification complete
+=======
+						# OK to go recursive with re-parsing chat-svc log in line below?
+	   					# ./parseResults.sh
+
+	   				# Reload crontab for scheduled chat jobs once verification complete
+>>>>>>> 89e1c03a01b5d376cca1fc7e942edd77e39ba8b9
 	   				crontab monitor-crontab.txt
 
    					# Notify Ops of changes made
