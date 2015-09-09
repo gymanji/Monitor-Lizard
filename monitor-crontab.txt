@@ -1,0 +1,2 @@
+*/10 * * * *  /Users/Zach/Development/GitHub Repos/Monitor-Lizard/is-it-working.sh >/dev/null 2>&1
+*/11 * * * * /Users/Zach/Development/GitHub Repos/Monitor-Lizard/parseResults.sh.sh >/dev/null 2>&1
